@@ -1,6 +1,14 @@
 Numix is a modern flat theme with a combination of light and dark elements. It supports Gnome, Unity, XFCE and Openbox.
-
 Numix is a part of the [Numix Project](http://numixproject.org).
+
+This fork tries to adapt its look using [solarised colours](http://ethanschoonover.com/solarized) and thus is a successor to [mkrnr/Numix-Solarized-Dark](https://github.com/mkrnr/Numix-Solarized-Dark).
+Creating it anew was necessary due to problems introduced by GTK+ 3.20.
+Moreover, the theme tries to use less visual space.
+This is done in order to maximise the amount of visible content on the screen while remaining Numix' pleasant look.
+
+Currently, only the dark scheme was solarised as this is the only one I personally need.
+If you want to solarise the light version as well, feel free to send me a pull request.
+
 
 ### Manual installation
 
@@ -22,18 +30,17 @@ make
 sudo make install
 ```
 
-To set the theme in Gnome, run the following commands in Terminal,
+To set the theme, modify your `$HOME/.gtkrc-2.0`:
 
-```sh
-gsettings set org.gnome.desktop.interface gtk-theme "Numix"
-gsettings set org.gnome.desktop.wm.preferences theme "Numix"
+```
+gtk-theme-name="Numix Solarised"
 ```
 
-To set the theme in Xfce, run the following commands in Terminal,
+Furthermore, edit `$HOME/.config/gtk-3.0/settings.ini` so that it contains the following lines:
 
-```sh
-xfconf-query -c xsettings -p /Net/ThemeName -s "Numix"
-xfconf-query -c xfwm4 -p /general/theme -s "Numix"
+```
+gtk-theme-name=Numix Solarised
+gtk-application-prefer-dark-theme=true
 ```
 
 ### For developers
