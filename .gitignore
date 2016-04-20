@@ -9,3 +9,6 @@ dist
 # Jetbrains IDEs
 .idea
 *.iml
+
+# vim temp files
+*.swp
