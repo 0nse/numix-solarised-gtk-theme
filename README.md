@@ -1,13 +1,13 @@
-Numix is a modern flat theme with a combination of light and dark elements. It
-supports Gnome, Unity, XFCE and Openbox. Numix is a part of the
-[Numix Project](http://numixproject.org).
+Numix Solarised is a fork of the original Numix GTK+ theme from the
+[Numix Project](http://numixproject.org). It is a modern, flat theme with
+[dark solarised colours](http://ethanschoonover.com/solarized). Support for
+Gnome, Unity, XFCE and Openbox may be dropped anytime soon as I am using a
+tiling window manager.
 
-This fork tries to adapt its look using
-[solarised colours](http://ethanschoonover.com/solarized) and thus is a
-successor to
+This fork is a successor to
 [mkrnr/Numix-Solarized-Dark](https://github.com/mkrnr/Numix-Solarized-Dark).
 Creating it anew was necessary due to problems introduced by GTK+ 3.20.
-Moreover, the theme tries to use less visual space.  This is done in order to
+Moreover, the theme tries to use less visual space. This is done in order to
 maximise the amount of visible content on the screen while remaining Numix'
 pleasant look.
 
