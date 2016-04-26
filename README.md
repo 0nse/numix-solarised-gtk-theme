@@ -15,7 +15,6 @@ Currently, only the dark scheme was solarised as this is the only one I
 personally need. If you want to solarise the light version as well, feel free
 to send me a pull request.
 
-
 ### Manual installation
 
 First, you need to compile the theme using the [Sass](http://sass-lang.com/)
@@ -56,7 +55,6 @@ gtk-application-prefer-dark-theme=true
 
 You probably also want to export the following variable so that QT
 applications use GTK+ 2 themes:
-
 ```
 QT_STYLE_OVERRIDE=GTK+
 ```
